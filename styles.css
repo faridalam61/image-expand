@@ -52,7 +52,13 @@ body{
         flex-direction: column;
     }
 
-    .panel{height: 50px; width: 200px}
+    .panel{height: 50px; width: 280px; transition: height 0.6s ease-in;}
 
-    .active{height: 250px;}
+    .active{height: 350px;}
+        .panel h2 {
+           
+            bottom: 10px;
+            left: 10px;
+            
+        }
 }
